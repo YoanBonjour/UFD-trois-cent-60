@@ -12,3 +12,67 @@ img,
 video {
   display: block;
 }
+
+p {
+  color: var(--main-text);
+}
+
+.secondary-text {
+  color: var(--secondary-text);
+  font-family: Inter;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.secondary-text-small {
+  color: var(--secondary-text);
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.h1-small {
+  color: var(--main-text);
+  font-family: Inter;
+  font-size: 3.433125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87.415%;
+}
+
+button {
+  background-color: rgb(0 0 0 / 0);
+  color: var(--main-text);
+  border: none;
+}
+
+h2 {
+  color: var(--main-text);
+  font-family: Inter;
+  font-size: 3.433125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87.415%;
+}
+
+h3 {
+  overflow: hidden;
+  color: var(--main-text);
+  text-overflow: ellipsis;
+  // white-space: nowrap;
+  font-family: Inter;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0.25px;
+}
+
+input {
+  border: none;
+  background-color: rgb(0 0 0 / 0);
+}

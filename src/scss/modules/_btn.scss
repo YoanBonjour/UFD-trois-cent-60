@@ -1,0 +1,12 @@
+.btn {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--black-900);
+}
+
+.btn:hover {
+  background-color: var(--white-900);
+}
