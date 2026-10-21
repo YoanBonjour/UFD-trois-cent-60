@@ -5,6 +5,8 @@
 @import "modules/menu";
 @import "modules/footer";
 @import "modules/article-hero";
+@import "modules/article";
+@import "modules/article-complementary";
 @import "modules/btn";
 @import "modules/hero";
 @import "modules/card-mobil";
@@ -48,4 +50,8 @@ main {
   align-items: center;
   gap: 24px;
   align-self: stretch;
+}
+
+.details-content {
+  margin-top: 24px;
 }

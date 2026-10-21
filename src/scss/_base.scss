@@ -25,6 +25,23 @@ p {
   font-family: Inter;
 }
 
+.p-bold {
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.img-description {
+  color: var(--secondary-text);
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .secondary-text {
   color: var(--secondary-text);
   font-family: Inter;
@@ -79,6 +96,7 @@ h2 {
   font-style: normal;
   font-weight: 700;
   line-height: 87.415%;
+  width: 100%;
 }
 
 .h2-alternate {

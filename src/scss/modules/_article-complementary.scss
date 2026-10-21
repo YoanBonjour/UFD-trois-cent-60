@@ -1,0 +1,69 @@
+.article-complementary {
+  display: flex;
+  padding: 0 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.article-autor img {
+  width: 65px;
+  height: 65px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+}
+
+.article-autor {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.article-category {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.article-category-hashtag {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0 12px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.article-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.article-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  align-self: stretch;
+}
+
+.article-links a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-transform: lowercase;
+}

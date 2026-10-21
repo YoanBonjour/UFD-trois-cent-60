@@ -11,6 +11,12 @@
   width: 100%;
 }
 
+.hero-title {
+  width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
 .hero-card {
   display: flex;
   flex-direction: column;
