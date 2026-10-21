@@ -1,5 +1,5 @@
 footer {
-  background: var(--color-Primitives-black-900, #1a181a);
+  background: var(--black-900);
 }
 
 footer a {
@@ -7,7 +7,7 @@ footer a {
 }
 
 footer {
-  color: var(--color-Primitives-black-200, #c0c0c0);
+  color: var(--black-200);
   font-family: Inter;
   font-size: 0.75rem;
   letter-spacing: 0.115px;
@@ -58,7 +58,7 @@ footer ul {
 }
 
 .footer-list a {
-  color: var(--color-Primitives-white-100, #efebe2);
+  color: var(--white-100);
   font-family: Inter;
   font-size: 1rem;
   font-weight: 700;
@@ -66,7 +66,7 @@ footer ul {
 }
 
 .footer-credits {
-  color: var(--color-Primitives-white-100, #efebe2);
+  color: var(--white-100);
   font-family: Inter;
   font-size: 12px;
   letter-spacing: 0.12px;

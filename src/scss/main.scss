@@ -2,21 +2,27 @@
 @import "font";
 @import "base";
 @import "layout";
+@import "modules/menu";
 @import "modules/footer";
 @import "modules/btn";
 @import "modules/hero";
 @import "modules/card-mobil";
 @import "modules/btn-more";
 @import "modules/newsletter";
+@import "modules/faq";
+@import "modules/last-news";
+@import "modules/reels";
 
 main {
   display: flex;
-  padding: 12px 0;
+  padding: 12px 0 24px 0;
   gap: 72px;
   flex-direction: column;
 }
 
-.article {
+.article,
+.reels,
+.last-news {
   display: flex;
   padding: 0 24px;
   flex-direction: column;

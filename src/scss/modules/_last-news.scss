@@ -1,0 +1,38 @@
+.last-news-live {
+  overflow: hidden;
+  color: var(--red-400);
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.last-news-component .secondary-text {
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  align-self: stretch;
+}
+
+.last-news-component h3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  align-self: stretch;
+}
+
+.last-news-component {
+  display: flex;
+  width: 284px;
+  height: 172px;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  flex-shrink: 0;
+  border: 1px solid var(--black-900);
+  margin: auto;
+}
