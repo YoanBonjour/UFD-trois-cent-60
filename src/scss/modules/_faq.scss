@@ -18,7 +18,7 @@
   padding-bottom: 20px;
   cursor: pointer;
   list-style: none;
-  border-bottom: 1px solid var(--black-900);
+  border-bottom: 1px solid var(--always-black-900);
   gap: 12px;
 }
 
@@ -60,6 +60,15 @@
   margin: 12px 24px 0 24px;
 }
 
+.faq-respond p {
+  color: var(--always-black-900);
+}
+
 .faq-question p {
   font-weight: 600;
+  color: var(--always-black-900);
+}
+
+.faq-section h2 {
+  color: var(--always-black-900);
 }

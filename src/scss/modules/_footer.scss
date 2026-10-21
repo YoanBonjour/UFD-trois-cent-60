@@ -65,6 +65,51 @@ footer ul {
   letter-spacing: 0.16px;
 }
 
+.theme-toggle {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white-100);
+  font-family: Inter;
+  font-size: 0.75rem;
+  letter-spacing: 0.115px;
+  cursor: pointer;
+}
+
+.theme-toggle-track {
+  display: flex;
+  width: 44px;
+  height: 24px;
+  padding: 3px;
+  align-items: center;
+  border: 1px solid var(--white-100);
+  border-radius: 999px;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.theme-toggle-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--white-100);
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle[aria-checked="true"] .theme-toggle-track {
+  background-color: var(--red-400);
+}
+
+.theme-toggle[aria-checked="true"] .theme-toggle-thumb {
+  transform: translateX(20px);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--red-400);
+  outline-offset: 4px;
+}
+
 .footer-credits {
   color: var(--white-100);
   font-family: Inter;

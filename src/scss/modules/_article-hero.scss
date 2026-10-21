@@ -8,7 +8,11 @@
   gap: 10px;
   align-self: stretch;
   background:
-    linear-gradient(180deg, rgba(26, 24, 26, 0) 0%, var(--black-900) 100%),
+    linear-gradient(
+      180deg,
+      rgba(26, 24, 26, 0) 0%,
+      var(--always-black-900) 100%
+    ),
     url(/src/img/article-hero-background.png) lightgray 50% / cover no-repeat;
 }
 

@@ -32,3 +32,35 @@
   gap: 22px;
   align-self: stretch;
 }
+
+.secondary-text-bottom {
+  display: none;
+}
+
+.hero-description {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    padding-top: 96px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .secondary-text-bottom {
+    display: block;
+  }
+
+  .secondary-text {
+    display: none;
+  }
+
+  .hero-description {
+    display: block;
+  }
+}
