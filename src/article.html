@@ -1,0 +1,31 @@
+<!doctype html>
+<html data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <title>Trois Cent 60 - Online media</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon.ico" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <include src="components/menu.html"></include>
+    <main>
+      <include src="components/article-hero.html"></include>
+      <div class="last-news">
+        <h2 class="article-title">Denières nouvelles</h2>
+        <include src="components/last-news.html"></include>
+        <include src="components/last-news.html"></include>
+        <include src="components/last-news.html"></include>
+        <include src="components/last-news.html"></include>
+      </div>
+    </main>
+    <include src="components/footer.html"></include>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

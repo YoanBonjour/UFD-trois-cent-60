@@ -4,6 +4,7 @@ html {
   --black-200: #c0c0c0;
   --black-600: #4b4b4b;
   --red-400: #e44b44;
+  --always-black-900: #1a181a;
   --main-title: var(--red-400);
   --main-text: var(--black-900);
   --main-text-invert: var(--white-100);
@@ -22,6 +23,7 @@ html[data-theme="dark"] {
   --black-600: #aaaaaa;
   --black-900: #efebe2;
   --red-400: #e44b44;
+  --always-black-900: #1a181a;
   --main-title: var(--red-400);
   --main-text: var(--black-900);
   --main-text-invert: var(--white-100);
