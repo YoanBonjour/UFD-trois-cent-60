@@ -13,6 +13,10 @@ footer {
   letter-spacing: 0.115px;
 }
 
+footer p {
+  color: var(--black-200);
+}
+
 .footer-top {
   display: flex;
   flex-direction: column;
@@ -119,4 +123,34 @@ footer ul {
 
 .footer-logo img {
   width: 100%;
+}
+
+.footer-logo-left {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  footer {
+    display: flex;
+    padding: 120px 72px 0 72px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+    height: auto;
+    gap: 96px;
+  }
+
+  .footer-logo-left {
+    display: block;
+    max-width: 500px;
+  }
+
+  .footer-logo-right {
+    display: none;
+  }
+
+  .footer-top {
+    width: 100%;
+    padding: 0 0 30px 48px;
+  }
 }

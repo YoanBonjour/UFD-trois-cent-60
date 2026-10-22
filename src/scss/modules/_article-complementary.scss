@@ -68,3 +68,14 @@
   text-transform: lowercase;
   color: var(--main-text);
 }
+
+@media (min-width: 1200px) {
+  .article-complementary {
+    position: sticky;
+    align-self: flex-start;
+    top: 0;
+    height: 100vh;
+    justify-content: flex-start;
+    padding-top: 96px;
+  }
+}

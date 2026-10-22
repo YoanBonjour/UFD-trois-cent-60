@@ -56,3 +56,21 @@ input::placeholder {
   line-height: normal;
   text-transform: lowercase;
 }
+
+@media (min-width: 1200px) {
+  .newsletter {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .newsletter h2 {
+    font-size: 12.5rem;
+    max-width: 766px;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    max-width: 800px;
+  }
+}

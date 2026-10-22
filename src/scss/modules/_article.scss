@@ -10,9 +10,18 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 24px;
+  gap: 96px;
   flex: 1 0 0;
   padding: 0 24px;
+  width: 100%;
+}
+
+.article-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
   width: 100%;
 }
 
@@ -49,4 +58,12 @@
 
 .article-section-small img {
   width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .article-page {
+    max-width: 1200px;
+    align-self: center;
+    flex-direction: row;
+  }
 }

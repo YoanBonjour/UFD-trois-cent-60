@@ -72,3 +72,20 @@
 .faq-section h2 {
   color: var(--always-black-900);
 }
+
+@media (min-width: 1200px) {
+  .faq-section {
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .faq-section h2 {
+    font-size: 12.5rem;
+    max-width: 531px;
+  }
+
+  .faq-group-questions {
+    max-width: 800px;
+    padding-right: 100px;
+  }
+}

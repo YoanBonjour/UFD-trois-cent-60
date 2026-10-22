@@ -36,3 +36,9 @@
   border: 1px solid var(--black-900);
   margin: auto;
 }
+
+@media (min-width: 1200px) {
+  .last-news-component {
+    margin: auto;
+  }
+}
