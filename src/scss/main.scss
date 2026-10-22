@@ -9,7 +9,7 @@
 @import "modules/article-complementary";
 @import "modules/btn";
 @import "modules/hero";
-@import "modules/card-mobil";
+@import "modules/card";
 @import "modules/btn-more";
 @import "modules/newsletter";
 @import "modules/faq";
@@ -67,6 +67,15 @@ main {
 
   .last-news {
     width: 100%;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .reels {
+    padding-right: 0;
+    padding-left: 0;
   }
 
   .last-news-component-group {

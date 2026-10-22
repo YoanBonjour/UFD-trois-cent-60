@@ -43,49 +43,129 @@
         </div>
       </div>
       <div class="article">
-        <h2 class="article-title">À la une</h2>
-        <div class="article-card-group">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/btn-more.html"></include>
+        <h2 class="article-title">Articles à la une</h2>
+        <div class="article-card-group article-card-group--featured">
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.png","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper se prépare à explorer la lune de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde près d’Europe, lune de Jupiter","category":"Espace","title":"Europe pourrait-elle réunir les conditions propices à la vie?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.png","alt":"Deux personnes marchent en montagne","category":"Bien-être","title":"Les bienfaits méconnus de la marche en pleine nature","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/place-holder.avif","alt":"Nuages éclairés par le soleil couchant","category":"Environnement","title":"Ce que les nuages nous apprennent sur notre climat","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/reels-background.png","alt":"Deux personnes travaillent dans une boutique","category":"Région","title":"À la rencontre des personnes qui font vivre nos commerces","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
+        <include src="components/btn-more.html"></include>
       </div>
       <div class="article">
-        <h2 class="article-title">Suisse</h2>
-        <div class="article-card-group">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/btn-more.html"></include>
+        <h2 class="article-title">Actualités suisse</h2>
+        <div
+          class="article-card-group article-card-group--featured article-card-group--three"
+        >
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.png","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper se prépare à explorer la lune de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde près d’Europe, lune de Jupiter","category":"Espace","title":"Europe pourrait-elle réunir les conditions propices à la vie?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
+        <include src="components/btn-more.html"></include>
       </div>
       <div class="article">
-        <h2 class="article-title">Monde</h2>
-        <div class="article-card-group">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/btn-more.html"></include>
+        <h2 class="article-title">Actualités monde</h2>
+        <div
+          class="article-card-group article-card-group--featured article-card-group--three"
+        >
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper se prépare à explorer la lune de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde près d’Europe, lune de Jupiter","category":"Espace","title":"Europe pourrait-elle réunir les conditions propices à la vie?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include
+          ><include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.png","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
+        <include src="components/btn-more.html"></include>
       </div>
+      <section class="grand-format">
+        <div class="grand-format__inner">
+          <h2 class="article-title">Grands format</h2>
+          <div class="article-card-group article-card-group--grand-format">
+            <include
+              src="components/featured-article-card.html"
+              locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper : le voyage qui pourrait changer notre compréhension des lunes océaniques","date":"Valérie Larbaud — 29.09.2026"}'
+            ></include>
+            <include
+              src="components/featured-article-card.html"
+              locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde Europa Clipper près d’Europe","category":"Espace","title":"À la recherche de vie extraterrestre dans les océans de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+            ></include>
+          </div>
+        </div>
+      </section>
       <div class="article">
         <h2 class="article-title">Culture</h2>
-        <div class="article-card-group">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/btn-more.html"></include>
+        <div
+          class="article-card-group article-card-group--featured article-card-group--three"
+        >
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper se prépare à explorer la lune de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde près d’Europe, lune de Jupiter","category":"Espace","title":"Europe pourrait-elle réunir les conditions propices à la vie?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include
+          ><include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.png","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
+        <include src="components/btn-more.html"></include>
       </div>
       <div class="article">
         <h2 class="article-title">Écologie</h2>
-        <div class="article-card-group">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/btn-more.html"></include>
+        <div
+          class="article-card-group article-card-group--featured article-card-group--three"
+        >
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.png","alt":"La sonde Europa Clipper en préparation","category":"Sciences","title":"Europa Clipper se prépare à explorer la lune de Jupiter","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.png","alt":"Illustration de la sonde près d’Europe, lune de Jupiter","category":"Espace","title":"Europe pourrait-elle réunir les conditions propices à la vie?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include
+          ><include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.png","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
+        <include src="components/btn-more.html"></include>
       </div>
 
       <include src="components/newsletter-mobil.html"></include>
@@ -95,6 +175,12 @@
         <div class="reels-video">
           <include src="components/reels-component.html"></include
           ><include src="components/reels-component.html"></include>
+          <div class="reels-desktop">
+            <include src="components/reels-component.html"></include>
+          </div>
+          <div class="reels-desktop">
+            <include src="components/reels-component.html"></include>
+          </div>
         </div>
         <include src="components/btn-more.html"></include>
       </div>

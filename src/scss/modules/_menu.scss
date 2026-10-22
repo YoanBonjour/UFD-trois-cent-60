@@ -50,3 +50,84 @@ nav ul {
 nav ul li {
   color: var(--main-text-invert);
 }
+
+.menu-up-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu-subscribe {
+  display: none;
+}
+
+.menu-desktop-link {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  menu {
+    width: 100%;
+    margin: 0;
+    padding: 20px 50px 16px 50px;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .menu-up {
+    padding: 0;
+    border: 0;
+  }
+
+  .menu-up-nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    min-height: 60px;
+  }
+
+  .logo svg {
+    width: 120px;
+    height: 54px;
+  }
+
+  .menu-up-right {
+    justify-self: end;
+    gap: 20px;
+  }
+
+  .menu-subscribe {
+    display: block;
+    padding: 12px 22px;
+    border: 1px solid var(--accent);
+    color: var(--main-text-invert);
+    white-space: nowrap;
+  }
+
+  .menu-account {
+    flex: 0 0 auto;
+  }
+
+  menu > nav {
+    justify-content: center;
+    min-height: 56px;
+    border-top: 1px solid var(--white-100);
+  }
+
+  menu > nav > button {
+    display: none;
+  }
+
+  menu > nav ul {
+    justify-content: center;
+    gap: clamp(24px, 4vw, 48px);
+    width: auto;
+    margin: 0;
+  }
+
+  menu > nav ul .menu-desktop-link {
+    display: list-item;
+  }
+
+  nav {
+    padding-top: 10px;
+  }
+}
