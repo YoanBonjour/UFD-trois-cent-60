@@ -1,8 +1,8 @@
 <!doctype html>
-<html data-theme="light">
+<html lang="fr" data-theme="light">
   <head>
     <meta charset="utf-8" />
-    <title>Trois Cent 60 - Online media</title>
+    <title>Actualités suisses — Trois Cent 60</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="img/favicon_io/favicon.ico" />
     <link rel="stylesheet" href="scss/main.scss" />
@@ -18,18 +18,62 @@
     <main>
       <div class="details-content">
         <h1>Suisse</h1>
-        <div class="details-content-article">
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
-          <include src="components/card-mobil.html"></include>
+        <div
+          class="article-card-group article-card-group--featured article-card-group--swiss"
+        >
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.webp","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img1.webp","alt":"Sonde spatiale en préparation","category":"Châtel-Saint-Denis","title":"Elle appartenait à un groupe indien","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.webp","alt":"Sonde spatiale au-dessus de la surface d’Europe","category":"Châtel-Saint-Denis","title":"Ils sont près de 4000 individus et ils posent problème aux pêcheurs.","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.webp","alt":"Deux personnes marchent en montagne","category":"Fribourg","title":"Fribourg Gottéron vire son photographe","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.webp","alt":"Deux personnes marchent en montagne","category":"Châtel-Saint-Denis","title":"Un parcours de 25 km entre Chiètres et Ins","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/reels-background.webp","alt":"Deux personnes travaillent dans une boutique","category":"Châtel-Saint-Denis","title":"La bénichon de Châtel-Saint-Denis se déclinera en plusieurs rendez-vous","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.webp","alt":"Deux personnes marchent en montagne","category":"Châtel-Saint-Denis","title":"Elle appartenait à un groupe indien","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/identity-card.webp","alt":"Cartes d’assurance maladie suisse","category":"Châtel-Saint-Denis","title":"Quelle est la situation dans votre commune?","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/article-img2.webp","alt":"Sonde spatiale au-dessus de la surface d’Europe","category":"Châtel-Saint-Denis","title":"Ils sont près de 4000 individus et ils posent problème aux pêcheurs.","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/reels-background.webp","alt":"Deux personnes travaillent dans une boutique","category":"Châtel-Saint-Denis","title":"La bénichon de Châtel-Saint-Denis se déclinera en plusieurs rendez-vous","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.webp","alt":"Deux personnes marchent en montagne","category":"Fribourg","title":"Fribourg Gottéron vire son photographe","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
+          <include
+            src="components/featured-article-card.html"
+            locals='{"image":"img/main-article.webp","alt":"Deux personnes marchent en montagne","category":"Châtel-Saint-Denis","title":"Un parcours de 25 km entre Chiètres et Ins","date":"Valérie Larbaud — 29.09.2026"}'
+          ></include>
         </div>
         <include src="components/btn-more.html"></include>
       </div>
       <div class="last-news">
-        <h2 class="article-title">Denières nouvelles</h2>
+        <h2 class="article-title">Dernières nouvelles</h2>
         <div class="last-news last-news-component-group">
           <include src="components/last-news.html"></include>
           <include src="components/last-news.html"></include>

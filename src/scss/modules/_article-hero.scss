@@ -13,7 +13,7 @@
       rgba(26, 24, 26, 0) 0%,
       var(--always-black-900) 100%
     ),
-    url(/src/img/article-hero-background.png) lightgray 50% / cover no-repeat;
+    url(/src/img/article-hero-background.webp) lightgray 50% / cover no-repeat;
 }
 
 .article-hero h1 {
@@ -23,7 +23,7 @@
 .article-hero-category {
   position: relative;
   display: inline-flex;
-  align-self: flex-end;
+  align-self: flex-start;
   width: 180px;
   height: 28px;
   align-items: center;
